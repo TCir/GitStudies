@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		4458DAF228440EC70040888B /* iPadCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4458DAF028440EC70040888B /* iPadCollectionViewController.swift */; };
 		4458DAF328440EC70040888B /* iPadCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4458DAF128440EC70040888B /* iPadCollectionViewController.xib */; };
 		4458DAF628440EE40040888B /* iPodCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4458DAF428440EE40040888B /* iPodCollectionViewController.swift */; };
 		4458DAF728440EE40040888B /* iPodCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4458DAF528440EE40040888B /* iPodCollectionViewController.xib */; };
+=======
+		4458DAEC28440B880040888B /* iPadsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4458DAEA28440B880040888B /* iPadsTableViewController.swift */; };
+		4458DAED28440B880040888B /* iPadsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4458DAEB28440B880040888B /* iPadsTableViewController.xib */; };
+		4458DAFB28440FFF0040888B /* iPodCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4458DAF928440FFF0040888B /* iPodCollectionViewController.swift */; };
+		4458DAFC28440FFF0040888B /* iPodCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4458DAFA28440FFF0040888B /* iPodCollectionViewController.xib */; };
+>>>>>>> iPod
 		44C92AD8281A255B00069A02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C92AD7281A255B00069A02 /* AppDelegate.swift */; };
 		44C92ADA281A255B00069A02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C92AD9281A255B00069A02 /* SceneDelegate.swift */; };
 		44C92ADC281A255B00069A02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C92ADB281A255B00069A02 /* ViewController.swift */; };
@@ -23,10 +30,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		4458DAF028440EC70040888B /* iPadCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadCollectionViewController.swift; sourceTree = "<group>"; };
 		4458DAF128440EC70040888B /* iPadCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPadCollectionViewController.xib; sourceTree = "<group>"; };
 		4458DAF428440EE40040888B /* iPodCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPodCollectionViewController.swift; sourceTree = "<group>"; };
 		4458DAF528440EE40040888B /* iPodCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPodCollectionViewController.xib; sourceTree = "<group>"; };
+=======
+		4458DAEA28440B880040888B /* iPadsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadsTableViewController.swift; sourceTree = "<group>"; };
+		4458DAEB28440B880040888B /* iPadsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPadsTableViewController.xib; sourceTree = "<group>"; };
+		4458DAF928440FFF0040888B /* iPodCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPodCollectionViewController.swift; sourceTree = "<group>"; };
+		4458DAFA28440FFF0040888B /* iPodCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPodCollectionViewController.xib; sourceTree = "<group>"; };
+>>>>>>> iPod
 		44C92AD4281A255B00069A02 /* Devices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C92AD7281A255B00069A02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C92AD9281A255B00069A02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +65,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		4458DAEE28440E9C0040888B /* iPods */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +82,24 @@
 				4458DAF128440EC70040888B /* iPadCollectionViewController.xib */,
 			);
 			path = iPads;
+=======
+		4458DAE928440B5F0040888B /* iPads */ = {
+			isa = PBXGroup;
+			children = (
+				4458DAEA28440B880040888B /* iPadsTableViewController.swift */,
+				4458DAEB28440B880040888B /* iPadsTableViewController.xib */,
+			);
+			path = iPads;
+			sourceTree = "<group>";
+		};
+		4458DAF828440FE50040888B /* iPods */ = {
+			isa = PBXGroup;
+			children = (
+				4458DAF928440FFF0040888B /* iPodCollectionViewController.swift */,
+				4458DAFA28440FFF0040888B /* iPodCollectionViewController.xib */,
+			);
+			path = iPods;
+>>>>>>> iPod
 			sourceTree = "<group>";
 		};
 		44C92ACB281A255B00069A02 = {
@@ -88,8 +121,13 @@
 		44C92AD6281A255B00069A02 /* Devices */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				4458DAEF28440EA30040888B /* iPads */,
 				4458DAEE28440E9C0040888B /* iPods */,
+=======
+				4458DAF828440FE50040888B /* iPods */,
+				4458DAE928440B5F0040888B /* iPads */,
+>>>>>>> iPod
 				44C92AEE281A260700069A02 /* Cell */,
 				44C92AEB281A25D500069A02 /* Models */,
 				44C92AD7281A255B00069A02 /* AppDelegate.swift */,
@@ -178,12 +216,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				4458DAF728440EE40040888B /* iPodCollectionViewController.xib in Resources */,
+=======
+				4458DAFC28440FFF0040888B /* iPodCollectionViewController.xib in Resources */,
+>>>>>>> iPod
 				44C92AF2281A262C00069A02 /* ModelsCollectionViewCell.xib in Resources */,
 				44C92AE4281A255F00069A02 /* LaunchScreen.storyboard in Resources */,
 				4458DAF328440EC70040888B /* iPadCollectionViewController.xib in Resources */,
 				44C92AE1281A255F00069A02 /* Assets.xcassets in Resources */,
 				44C92ADF281A255B00069A02 /* Main.storyboard in Resources */,
+				4458DAED28440B880040888B /* iPadsTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C92ADC281A255B00069A02 /* ViewController.swift in Sources */,
+<<<<<<< HEAD
 				4458DAF628440EE40040888B /* iPodCollectionViewController.swift in Sources */,
+=======
+				4458DAFB28440FFF0040888B /* iPodCollectionViewController.swift in Sources */,
+				4458DAEC28440B880040888B /* iPadsTableViewController.swift in Sources */,
+>>>>>>> iPod
 				44C92AF1281A262C00069A02 /* ModelsCollectionViewCell.swift in Sources */,
 				4458DAF228440EC70040888B /* iPadCollectionViewController.swift in Sources */,
 				44C92AED281A25F600069A02 /* Profile.swift in Sources */,

@@ -5,7 +5,7 @@
 //  Created by Thiago Valentim on 29/05/22.
 //
 
-import UIKit
+import UIKit 
 
 private let cell = "Cell"
 
